@@ -1,10 +1,10 @@
 const canvas = document.getElementById("canvas");
 const gl = canvas.getContext("webgl");
 
-const vertecies = [
-  -0.5, -0.5, 0,
-  0.5, -0.5, 0,
-  -0.5, 0.5, 0,
+const vertices = [
+    -0.5, -0.5, 0,
+    0.5, -0.5, 0,
+    -0.5, 0.5, 0,
 ];
 
 const indices = [0, 1, 2];
@@ -13,7 +13,7 @@ const indices = [0, 1, 2];
 
 const vertexBuffer = gl.createBuffer();
 gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
-gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertecies), gl.STATIC_DRAW);
+gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
 gl.bindBuffer(gl.ARRAY_BUFFER, null);
 
 const indexBuffer = gl.createBuffer();

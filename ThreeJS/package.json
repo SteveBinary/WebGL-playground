@@ -1,0 +1,12 @@
+{
+  "name": "webgl-playground-threejs",
+  "version": "1.0.0",
+  "author": "SteveBinary",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.156.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
