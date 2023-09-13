@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "author": "SteveBinary",
   "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
   "dependencies": {
     "three": "^0.156.1"
   },
