@@ -14,6 +14,9 @@ Execute:
 
 ```shell
 cd ThreeJS
+```
+
+```shell
 npm run dev
 ```
 
